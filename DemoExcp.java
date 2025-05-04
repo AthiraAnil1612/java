@@ -25,7 +25,7 @@ public class DemoExcp{
         try {
             if (!user.equals(name)) {
                 throw new UsernameException("Username incorrect");
-            } else if (!pwd.equals(pass)) { // ✅ Fixed this line
+            } else if (!pwd.equals(pass)) { 
                 throw new PasswordException("Password incorrect");
             } else {
                 System.out.println("Login Successful!!!");
